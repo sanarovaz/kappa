@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.sanarovaz.barraticker</string>
+    <key>CFBundleName</key>
+    <string>Kappa</string>
+    <key>CFBundleDisplayName</key>
+    <string>Kappa</string>
+    <key>CFBundleExecutable</key>
+    <string>Kappa</string>
+    <key>CFBundleIconFile</key>
+    <string>Kappa</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>Kappa muestra tus próximos eventos en la barra de menús.</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Kappa muestra tus próximos eventos en la barra de menús.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>Kappa lee tus mails sin leer de Mail para avisarte en la barra de menús.</string>
+</dict>
+</plist>

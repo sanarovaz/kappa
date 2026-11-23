@@ -1,0 +1,8 @@
+.build/
+Kappa.app/
+debug.log
+*.log
+.DS_Store
+secrets.json
+.swiftpm/
+xcuserdata/

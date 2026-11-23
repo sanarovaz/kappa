@@ -10,6 +10,12 @@
 
 ---
 
+<p align="center">
+  <img src="docs/ticker-noticia.png" alt="Noticia en modo Cartelera"><br><br>
+  <img src="docs/ticker-agenda.png" alt="Evento de la agenda en modo Cartelera"><br><br>
+  <img src="docs/ticker-cambio.png" alt="Cotizaciones en modo Cartelera">
+</p>
+
 Kappa es una app nativa para macOS (Swift + SwiftUI) que no ocupa lugar en el Dock ni en la barra de menús: dibuja una franja fina encima de la barra, en una sola línea, con lo que querés tener presente durante el día. Pasás el mouse y se pausa; hacés clic y te muestra el detalle.
 
 ## Qué muestra
@@ -32,6 +38,14 @@ Nada ocupa más de una línea: si no entra, se corta con "…" (en eventos y pla
 - **Detalle:** primer clic abre un globo; el segundo abre el link o la app del ítem.
 - **Menú:** clic derecho → actualizar, ajustes, salir.
 - **Dónde aparece:** con monitor externo, centrado en ese monitor; sin monitor, a la derecha del notch.
+
+### El globo de detalle
+
+Un clic sobre cualquier ítem abre un globo con el texto completo (en noticias, el titular entero y el ícono del diario). Un segundo clic abre el link.
+
+<p align="center">
+  <img src="docs/globo.png" alt="Globo de detalle de una noticia">
+</p>
 
 ### Estilos y fondos
 
@@ -61,6 +75,10 @@ El script compila, arma `Kappa.app` en la misma carpeta, la firma localmente y l
 Todo se procesa en tu Mac. Kappa no tiene servidor propio ni envía tus datos a ningún lado; solo consulta las fuentes que activás (cotizaciones y feeds de noticias).
 
 ## Ajustes
+
+<p align="center">
+  <img src="docs/ajustes.png" width="720" alt="Ventana de Ajustes">
+</p>
 
 Ventana con una barra lateral:
 
